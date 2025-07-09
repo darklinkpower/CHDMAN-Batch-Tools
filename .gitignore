@@ -1,0 +1,25 @@
+# Ignore CHDMAN executable (original or renamed)
+**/chdman.exe
+
+# Ignore common Windows junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore logs or temporary output (if you later generate any)
+*.log
+*.tmp
+
+# Ignore user/project files from some editors (optional)
+.vscode/
+*.suo
+*.user
+*.ncb
+*.opendb
+*.VC.db
+
+# Ignore output CHDs or extracted BIN/CUE/ISO files
+*.chd
+*.bin
+*.cue
+*.iso
